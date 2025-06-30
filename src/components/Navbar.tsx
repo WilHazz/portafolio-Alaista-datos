@@ -14,7 +14,7 @@ export default function Navbar (){
           <Link href="#presentacion" className="hover:text-amber-300 transition-colors">Sobre mí</Link>
           <Link href="#proyectos" className="hover:text-amber-300 transition-colors">Proyectos</Link>
           <Link href="#habilidades" className="hover:text-amber-300 transition-colors">Habilidades</Link>
-          <Link href="#Contacto" className="hover:text-amber-300 transition-colors">Contactos</Link>
+          <Link href="#Contacto" className="hover:text-amber-300 transition-colors">Contacto</Link>
         </div>
     </nav>
   )

@@ -11,7 +11,7 @@ function Banner() {
           Hola, soy Hanny Wilson Paz
         </h1>
         <p className="text-lg max-w-xl">
-          +3 años de experiencia utilizando Python, Power BI, SQL y herramientas para el análisis de datos.
+          +2 años de experiencia utilizando Python, Power BI, SQL y herramientas para el análisis de datos.
         </p>
       </div>
     </section>
