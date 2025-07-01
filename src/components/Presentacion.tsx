@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function Presentacion() {
   return (
-    <section id="presentacion" className="min-h-[30vh] flex flex-col items-center justify-center px-6">
+    <section id="presentacion" className="min-h-[30vh] flex flex-col items-center justify-center bg-color-background px-6">
         <h1 className="text-2xl text-amber-300 mb-6 py-4">Presentación</h1>
         <div className="text-center space-y-4 max-w-2xl">
             <h2 className="text-3xl md:text-4xl font-bold">Hola, soy Hanny Wilson Paz</h2>
