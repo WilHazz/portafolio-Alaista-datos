@@ -5,7 +5,7 @@ const proyectos = [
         titulo: "Análisis de ventas E-commerce",
         descripcion: "Exploración de datos de ventas, KPIs y visualizaciones con Python, SQL y Power BI.",
         imagen: "/images/Ecommerce.jpg",
-        enlace: ""
+        enlace: "/proyectos/analisis-ventas"
 
     },
     {
