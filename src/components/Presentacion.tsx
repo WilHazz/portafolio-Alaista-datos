@@ -9,16 +9,16 @@ function Presentacion() {
             <h2 className="text-3xl md:text-4xl font-bold">Hola, soy Hanny Wilson Paz</h2>
             <p className="text-lg">
                  Soy Ingeniero en Informática con pasión por los datos y más de 2 años de experiencia
-                  utilizando herramientas como Python, Power BI, SQL y Excel para generar soluciones
+                  utilizando herramientas como <strong>Python</strong>, <strong>Power BI</strong>, <strong>SQL</strong> y <strong>Excel</strong> para generar soluciones
                    analíticas que impulsan decisiones de negocio.
             </p>
             {/* Lista de habilidades */}
 
             <ul className="list-disc list-inside text-base space-y-1">
-                <li> Especialista en administración de la información de datos</li>
+                <li> Especialista en administración de la información de bases de datos</li>
                 <li> Dominio de las principales herramientas de Data Analytics</li>
                 <li> Experiencia en visualización de datos con Power BI y Tableau</li>
-                <li> Conocimiento en modelado de datos y limpieza con Python</li>
+                <li> Conocimiento en modelado de datos y limpieza con Python y SQL</li>
                 <li>Análisis de KPIs para toma de decisiones estratégicas</li>
                 <li>Manejo avanzado de SQL para consultas complejas</li>
             </ul>
