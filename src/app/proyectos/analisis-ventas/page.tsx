@@ -35,6 +35,20 @@ function page() {
                 ¿qué segmentos y regiones generan más ingresos?, y ¿existen patrones de estacionalidad?
         </p>
         </div>
+
+        {/* Insights */}
+        <div className="max-w-4xl mx-auto text-left py-12 px-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4">Producto Estrella</h2>
+            <p className="mb-6 text-lg">
+                El producto mas vendido fue <strong>CornflowerBlue Record</strong> con mas de <strong>195 unidades. </strong> 
+                Esto indica una fuerte aceptación del mercado y representa una oportunidad para promocionarlo aún más.
+            </p>
+            <img
+            src="/images/Producto.png" 
+            alt="Producto mas vendido"
+            className="w-full h-auto"
+             />
+        </div>
     </section>
   )
 }
