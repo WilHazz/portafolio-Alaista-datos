@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { FaGithub } from "react-icons/fa" 
 
 function page() {
   return (
@@ -48,6 +49,15 @@ function page() {
             alt="Producto mas vendido"
             className="w-full h-auto"
              />
+        </div>
+        {/* Boton a Github */}
+        <div className="text-center pt-12">
+            <Link href="https://github.com/WilHazz/Analisis_Ecommerce" target="_blank">
+            <button className="inline-flex items-center text-center justify-center bg-amber-400 text-black font-semibold px-6 py-3 cursor-pointer rounded-3xl crounded-lg hover:bg-amber-500 transition gap-3">
+               <FaGithub className="text-3xl"/> 
+               Ver proyecto
+            </button>
+            </Link>
         </div>
     </section>
   )
