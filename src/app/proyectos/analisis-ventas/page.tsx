@@ -58,7 +58,7 @@ function page() {
                 Acciones y Recomendaciones
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-                {/* Medida 4 */}
+                {/* Medida 1 */}
                 <div className="shadow-lg overflow-hidden">
                     <img
                      src="/images/ventas_por_categoria.PNG"
@@ -66,25 +66,44 @@ function page() {
                      className="w-full h-auto object-containt p-4" 
                      />
                      <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Medida 4</h3>
+                        <h3 className="text-xl font-semibold mb-2">Medida 1</h3>
                         <p className="text-sm">
-                            Enfocar campañas de marketing en la categoría <strong>Deportes</strong>,
+                            Enfocar campañas de marketing para las categorías <strong>Deportes</strong> y <strong>Electrónicos</strong>,
                             ya que presenta las menores ventas.
                         </p>
                      </div>
                 </div>
-                {/* Medida 5 */}
+                {/* Medida 2 */}
                 <div className="shadow-lg overflow-hidden">
                     <img
-                     src="/images/ventas_por_categoria.PNG"
-                     alt="ventas por categoria"
+                     src="/images/Tendencias-Ventas-Mes.PNG"
+                     alt="Tendencias ventas por mes"
                      className="w-full h-auto object-containt p-4" 
                      />
                      <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Medida 5</h3>
+                        <h3 className="text-xl font-semibold mb-2">Medida 2</h3>
                         <p className="text-sm">
-                            Enfocar campañas de marketing en la categoría <strong>Deportes</strong>,
-                            ya que presenta las menores ventas.
+                            Ajustar estrategias de marketing en función de la <strong>estacionalidad</strong>.
+                            Se observan picos de ventas en los meses <strong>1, 5, 8 y 11</strong>, y caídas importantes
+                            en los meses <strong>4, 7 y 10</strong>. Esto indica la necesidad de impulsar promociones
+                            específicas durante los meses de baja demanda para mantener ingresos estables.
+                        </p>
+                     </div>
+                </div>
+                {/* Medida 3 */}
+                <div className="shadow-lg overflow-hidden">
+                    <img
+                     src="/images/Ventas_por_segmento.PNG"
+                     alt="ventas por segmento de cliente"
+                     className="w-full h-auto object-containt p-4" 
+                     />
+                     <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2">Medida 3</h3>
+                        <p className="text-sm">
+                            El segmento <strong>Minorista</strong> y <strong>Premium</strong> lideran las ventas.
+                            Se recomienda <strong>fortalecer las relaciones con el segmento Mayorista</strong>, que
+                            muestra un desempeñoinferior, mediante programas de fidelización o descuentos 
+                            por volumen para incentivar su participación.
                         </p>
                      </div>
                 </div>
