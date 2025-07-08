@@ -24,9 +24,9 @@ function page() {
         </div>
 
         {/* Resumen Ejecutivo */}
-        <div className="max-w-4xl mx-auto text-left px-6 space-y-6">
-            <h2 className="text-2xl font-bold text-amber-400">Resumen Ejecutivo</h2>
-            <p>
+        <div className="w-full mx-auto text-left px-10 py-4">
+            <h2 className="text-4xl font-bold text-amber-400 mb-6">Resumen Ejecutivo</h2>
+            <p className="mb-4 text-lg">
                 La tienda e-commerce ha presentado dificultades para comprender el comportamiento de sus ventas, 
                 especialmente en cuanto a qué productos generan mayores ingresos, cuáles presentan bajo rendimiento 
                 y qué segmentos de clientes son más rentables.
@@ -38,18 +38,59 @@ function page() {
         </div>
 
         {/* Insights */}
-        <div className="max-w-4xl mx-auto text-left py-12 px-6">
+        <div className="w-full mx-auto text-left px-10 py-6">
             <h2 className="text-2xl font-bold text-amber-400 mb-4">Producto Estrella</h2>
             <p className="mb-6 text-lg">
                 El producto mas vendido fue <strong>CornflowerBlue Record</strong> con mas de <strong>195 unidades. </strong> 
                 Esto indica una fuerte aceptación del mercado y representa una oportunidad para promocionarlo aún más.
             </p>
-            <img
-            src="/images/Producto.png" 
-            alt="Producto mas vendido"
-            className="w-full h-auto"
-             />
+            <div className="flex justify-center">
+                <img
+                    src="/images/Producto.png" 
+                    alt="Producto mas vendido"
+                    className="w-full max-w-3xl h-auto shadow-md"
+                />
+            </div>
         </div>
+        {/* Acciones y Recomendaciones */}
+        <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4">
+                Acciones y Recomendaciones
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+                {/* Medida 4 */}
+                <div className="shadow-lg overflow-hidden">
+                    <img
+                     src="/images/ventas_por_categoria.PNG"
+                     alt="ventas por categoria"
+                     className="w-full h-auto object-containt p-4" 
+                     />
+                     <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2">Medida 4</h3>
+                        <p className="text-sm">
+                            Enfocar campañas de marketing en la categoría <strong>Deportes</strong>,
+                            ya que presenta las menores ventas.
+                        </p>
+                     </div>
+                </div>
+                {/* Medida 5 */}
+                <div className="shadow-lg overflow-hidden">
+                    <img
+                     src="/images/ventas_por_categoria.PNG"
+                     alt="ventas por categoria"
+                     className="w-full h-auto object-containt p-4" 
+                     />
+                     <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2">Medida 5</h3>
+                        <p className="text-sm">
+                            Enfocar campañas de marketing en la categoría <strong>Deportes</strong>,
+                            ya que presenta las menores ventas.
+                        </p>
+                     </div>
+                </div>
+            </div>
+        </div>
+
         {/* Boton a Github */}
         <div className="text-center pt-12">
             <Link href="https://github.com/WilHazz/Analisis_Ecommerce" target="_blank">
