@@ -46,7 +46,7 @@ function page() {
             </p>
             <div className="flex justify-center">
                 <img
-                    src="/images/Producto.png" 
+                    src="/images/Proyecto_Ecommerce/Producto.png" 
                     alt="Producto mas vendido"
                     className="w-full max-w-3xl h-auto shadow-md"
                 />
@@ -61,7 +61,7 @@ function page() {
                 {/* Medida 1 */}
                 <div className="shadow-lg overflow-hidden">
                     <img
-                     src="/images/ventas_por_categoria.PNG"
+                     src="/images/Proyecto_Ecommerce/ventas_por_categoria.PNG"
                      alt="ventas por categoria"
                      className="w-full h-auto object-containt p-4" 
                      />
@@ -76,7 +76,7 @@ function page() {
                 {/* Medida 2 */}
                 <div className="shadow-lg overflow-hidden">
                     <img
-                     src="/images/Tendencias-Ventas-Mes.PNG"
+                     src="/images/Proyecto_Ecommerce/Tendencias-Ventas-Mes.PNG"
                      alt="Tendencias ventas por mes"
                      className="w-full h-auto object-containt p-4" 
                      />
@@ -93,7 +93,7 @@ function page() {
                 {/* Medida 3 */}
                 <div className="shadow-lg overflow-hidden">
                     <img
-                     src="/images/Ventas_por_segmento.PNG"
+                     src="/images/Proyecto_Ecommerce/Ventas_por_segmento.PNG"
                      alt="ventas por segmento de cliente"
                      className="w-full h-auto object-containt p-4" 
                      />
@@ -106,6 +106,55 @@ function page() {
                             por volumen para incentivar su participación.
                         </p>
                      </div>
+                </div>
+            </div>
+        </div>
+        {/* Matriz De Correlación */}
+        <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4 py-4">
+                Análisis de Correlación
+            </h2>
+
+            <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="w-full md:w-1/2">
+                    <h3 className="flex flex-col text-center">Medida 4</h3>
+                    <img 
+                    src="/images/Proyecto_Ecommerce/MatrizCorrelacion.png" 
+                    alt="Matriz de Correlación" 
+                    className="w-full h-auto object-containt p-4"
+                    />
+                </div>
+
+                {/* Texto Derecha */}
+                <div className="w-full md:w-1/2 space-y-4 text-left">
+                    <p className="text-lg">
+                        Esta matriz de correlación revela cómo se relacionan las variables <strong>cantidad</strong>, 
+                        <strong>precio_unitario</strong> y <strong>total</strong> de ventas.
+                    </p>
+                    <ul className="list-disc ml-6 text-base space-y-2">
+                        <li>
+                            La correlación entre <strong>precio_unitario </strong>
+                            y <strong>total</strong> es <strong>0.72</strong>, indicando que
+                            <strong> el precio influye más que la cantidad </strong> en las ventas totales.
+                        </li>
+                        <li>
+                            La correlación entre <strong>cantidad</strong> y <strong> precio_unitario </strong> 
+                            es casi nula (<strong>0.068</strong>), es decir: <em>no necesariamente venderás menos 
+                            si subes el precio</em>.
+                        </li>
+                        <li>
+                            La relación entre <strong>cantidad</strong> y <strong>total</strong> es 
+                            <strong> 0.65</strong>, mostrando que el volumen vendido también impacta los ingresos.
+                        </li>
+                    </ul>
+                    <p className="text-lg font-medium text-amber-300 mt-4">
+                        Conclusiones Estratégicas:
+                    </p>
+                    <ul className="list-disc ml-6 space-y-2">
+                        <li>Puedes aumentar precios moderadamente sin afectar mucho la demanda.</li>
+                        <li>No hay evidencia clara de bajar precios aumente ventas.</li>
+                        <li>Optimizar tanto precio como volumen es clave para maximizar ingresos.</li>
+                    </ul>
                 </div>
             </div>
         </div>
