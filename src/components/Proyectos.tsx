@@ -9,9 +9,9 @@ const proyectos = [
 
     },
     {
-        titulo: "Análisis de ventas E-commerce",
-        descripcion: "Exploración de datos de ventas, KPIs y visualizaciones con Python, SQL y Power BI.",
-        imagen: "/images/Ecommerce.jpg",
+        titulo: "Análisis Hurtos en Colombia",
+        descripcion: "Descripcion para este proyecto",
+        imagen: "/images/Analisis_Hurto.png",
         enlace: ""
 
     },
