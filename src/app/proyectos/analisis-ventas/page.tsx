@@ -158,6 +158,36 @@ function page() {
                 </div>
             </div>
         </div>
+        {/* Dashboard Power BI */}
+        <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4" >
+                Resumen Ejecutivo del Dashboard
+            </h2>
+            <p className="text-lg mb-4">
+                El tablero desarrollado en <strong>Power BI</strong> permite visualizar métricas
+                clave como:
+                <ul className="list-disc list-inside space-y-2 mt-2 text-base">
+                    <li><strong>Total de Ventas:</strong> Más de $506.400.000 millones pesos Colombianos</li>
+                    <li><strong>Número de Clientes:</strong> 100 Clientes registrados</li>
+                    <li><strong>Ticket Promedio:</strong> $506.400.000 millones pesos Colombianos</li>
+                    <li><strong>Unidades Vendidas por Producto:</strong> Identificación del producto estrella y su rotación.</li>
+                    <li><strong>Tendencias de Ventas:</strong> Comportamiento mensual de las ventas.</li>
+                    <li><strong>Ventas por Región:</strong> Distribución equilibrada, destacando oportunidades en ciertas zonas.</li>
+                </ul>
+            </p>
+            <p className="text-base italic">
+                Este dashboard facilita la toma de decisiones al brindar una version consolidada
+                del rendimineto comercial.
+            </p>
+             <div className=" flex mt-6 justify-center ">
+                <img 
+                src="/images/Proyecto_Ecommerce/Ecommerce_Bi.PNG" 
+                alt="Ecommerce-PowerBI"
+                className="max-w-5xl w-full h-auto border-gray-300 border-2 shadow-lg"
+                />
+             </div>
+
+        </div>
 
         {/* Boton a Github */}
         <div className="text-center pt-12">
