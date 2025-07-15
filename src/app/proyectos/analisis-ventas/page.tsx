@@ -186,8 +186,43 @@ function page() {
                 className="max-w-5xl w-full h-auto border-gray-300 border-2 shadow-lg"
                 />
              </div>
-
         </div>
+
+        {/* KPIs - Métricas clave */}
+        <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4">KPIs - Métricas Clave</h2>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+                <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 className="text-xl font-semibold mb-2">Producto Más Vendido</h3>
+                    <p className="text-2xl font-bold text-amber-300">CornflowerBlue Record</p>
+                    <p className="text-base mt-2">Cantidad vendida: <strong>199 unidades</strong></p>
+                </div>
+                <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+                     <h3 className="text-xl font-semibold mb-2">Cliente Más Valioso</h3>
+                     <p className="text-2xl font-bold text-amber-300">Vickie Castillo</p>
+                     <p className="text-base mt-2">Total gastado: <strong>$8,998.24</strong></p>
+                </div>
+
+                <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 className="text-xl font-semibold mb-2">Mes Más Fuerte en Ventas</h3>
+                    <p className="text-2xl font-bold text-amber-300">Noviembre</p>
+                </div>
+                <div className="grid md:grid-cols-2 gap-8 text-center mt-8">
+                    <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+                        <h3 className="text-xl font-semibold mb-2">Segmento con Más Ingresos</h3>
+                        <p className="text-2xl font-bold text-amber-300">Minorista</p>
+                    </div>
+                    <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+                        <h3 className="text-xl font-semibold mb-2">Meses Estacionales</h3>
+                        <p className="text-lg mt-2">Noviembre, Enero, Mayo</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+        </div>
+
 
         {/* Boton a Github */}
         <div className="text-center pt-12">
