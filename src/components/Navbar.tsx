@@ -13,7 +13,7 @@ function Navbar (){
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="w-full bg-color-background text-white top-0 left-0 z-50 shadow-md">
+    <nav className="w-full bg-background text-white top-0 left-0 z-50 shadow-md">
        <div className="flex justify-between px-6 py-4 items-center">
           <Link href="/" className="flex items-center text-2xl gap-2 font-bold hover:text-amber-300">
             <PieChart className="w-6 h-6 text-amber-300"/>

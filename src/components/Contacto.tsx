@@ -5,7 +5,7 @@ function Contacto() {
   return (
     <section 
     id="Contacto" 
-    className="py-16 bg-color-background text-center px-6">
+    className="py-16 bg-background text-center px-6">
         <h2 className="text-3xl font-bold text-amber-500 mb-6">Contacto</h2>
         <p className="text-lg text-gray-200 py-4">
           Puedes conectar conmigo a través de las redes o por correo electrónico.
