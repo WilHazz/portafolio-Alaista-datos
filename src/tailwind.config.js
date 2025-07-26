@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}", // si estás usando páginas
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}", // opcional si usas pages además de app
   ],
   theme: {
     extend: {},
   },
-  darkMode: "class", // si usas modo oscuro con class="dark"
+  darkMode: "class", // si usas dark mode con class
   plugins: [],
-}
+};
