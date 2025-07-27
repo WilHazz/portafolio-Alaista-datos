@@ -12,7 +12,7 @@ const proyectos = [
         titulo: "Análisis Hurtos en Colombia",
         descripcion: "Descripcion para este proyecto",
         imagen: "/images/Analisis_Hurto.png",
-        enlace: ""
+        enlace: "/proyectos/analisis-hurtos"
 
     },
     {
