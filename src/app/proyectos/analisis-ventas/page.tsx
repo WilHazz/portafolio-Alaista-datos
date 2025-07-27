@@ -46,7 +46,7 @@ function page() {
             </p>
             <div className="flex justify-center">
                 <img
-                    src="/images/Proyecto_Ecommerce/producto.PNG" 
+                    src="/images/Proyecto_Ecommerce/producto.png" 
                     alt="Producto mas vendido"
                     className="w-full max-w-3xl h-auto shadow-md"
                 />
