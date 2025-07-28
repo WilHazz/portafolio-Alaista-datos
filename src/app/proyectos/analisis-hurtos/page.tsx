@@ -231,6 +231,58 @@ function page(){
                 </div>
             </div>
         </div>
+
+        {/* Dashboard Look Studio */}
+
+        {/* KPIs - Métricas clave */}
+
+        <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4">KPIs - Métricas Clave</h2>
+        <div className="grid md:grid-cols-3 gap-8 text-center">
+    
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">Total de Hurtos</h3>
+            <p className="text-3xl font-bold text-amber-300">604,631</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Femenino</h3>
+            <p className="text-2xl font-bold text-amber-300">50.1%</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Masculino</h3>
+            <p className="text-2xl font-bold text-amber-300">49.9%</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Menores de Edad</h3>
+            <p className="text-2xl font-bold text-amber-300">7.3%</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Adultos</h3>
+            <p className="text-2xl font-bold text-amber-300">61.8%</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Adultos Mayores</h3>
+            <p className="text-2xl font-bold text-amber-300">30.8%</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Hurtos sin Arma</h3>
+            <p className="text-2xl font-bold text-amber-300">0.4%</p>
+        </div>
+
+        <div className="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2 text-white">% Hurtos con Arma</h3>
+            <p className="text-2xl font-bold text-amber-300">99.6%</p>
+        </div>
+
+</div>
+</div>
+
          {/* Boton a Github */}
         <div className="text-center pt-12 py-4">
             <Link href="https://github.com/WilHazz/Analisis-Datos-Hurtos" target="_blank">
