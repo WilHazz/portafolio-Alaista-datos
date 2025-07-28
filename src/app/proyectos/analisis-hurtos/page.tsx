@@ -125,7 +125,7 @@ function page(){
                 Acciones y Recomendaciones
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-                {/* Medida 1 */}
+                {/* Medida 4 */}
                 <div className="shadow-lg overflow-hidden">
                     <img 
                         src="/images/Proyecto_Hurtos/departamentos.png" 
@@ -133,7 +133,7 @@ function page(){
                         className="w-full h-auto object-containt p-4"
                         />
                     <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 1</h3>
+                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 4</h3>
                         <p className="text-sm text-white">
                             Los departamentos con mayores índices de hurto son <strong>Antioquia</strong>, 
                             <strong>Cundinamarca</strong> y <strong>Valle del Cauca</strong>. Se recomienda 
@@ -142,7 +142,7 @@ function page(){
                         </p>
                     </div>    
                 </div>
-                {/* Medida 2 */}
+                {/* Medida 5 */}
                 <div className="shadow-lg overflow-hidden">
                     <img 
                         src="/images/Proyecto_Hurtos/hurtos_grupoEdad.png" 
@@ -150,7 +150,7 @@ function page(){
                         className="w-full h-auto object-containt p-4"
                         />
                     <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 2</h3>
+                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 5</h3>
                         <p className="text-sm text-white">
                             Se observa que los <strong>adultos y mayores </strong> 
                             son más vulnerables a ciertos tipos de hurto. Se recomienda implementar 
@@ -160,7 +160,7 @@ function page(){
                         </p>
                     </div>    
                 </div>
-                {/* Medida 3 */}
+                {/* Medida 6 */}
                 <div className="shadow-lg overflow-hidden">
                     <img 
                         src="/images/Proyecto_Hurtos/Hurtos_edad_vitimas.png" 
@@ -168,7 +168,7 @@ function page(){
                         className="w-full h-auto object-containt p-4"
                         />
                     <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 3</h3>
+                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 6</h3>
                         <p className="text-sm text-white">
                             Esta visualización muestra cómo varían los <strong>tipos de hurto </strong> 
                             según el grupo de edad de las <strong>víctimas</strong>. 
@@ -182,7 +182,55 @@ function page(){
                 </div>
             </div>
          </div>
-
+        {/* Matriz de correlacion */}
+        <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4 py-4">
+                Análisis de Correlación
+            </h2>
+             <div className="flex flex-col md:flex-row items-center gap-8">
+                {/* Imagen Izquierda */}
+                <div className="w-full md:w-1/2">
+                    <h3 className="flex flex-col text-center text-white">Medida 7</h3>
+                    <img
+                    src="/images/Proyecto_Hurtos/Matriz_Correlacion.png"
+                    alt="Matriz de Correlación"
+                    className="w-full h-auto object-contain p-4"
+                    />
+                </div>
+                {/* Texto Derecha */}
+                <div className="w-full md:w-1/2 space-y-4 text-left text-white">
+                    <p className="text-lg text-white">
+                        Esta matriz de correlación revela cómo se relacionan entre sí variables como 
+                        <strong> edad de la víctima</strong>, <strong>año del hecho</strong>, 
+                        <strong> género</strong>, <strong>tipo de hurto</strong> y 
+                        <strong> tipo de arma usada</strong>.
+                    </p>
+                    <ul className="list-disc ml-6 text-base space-y-2">
+                        <li>
+                            <strong>La edad</strong> no muestra correlaciones significativas con otras variables, 
+                            lo que sugiere que el hurto no está relacionado directamente con la edad de la víctima.
+                        </li>
+                        <li>
+                            El <strong>año del hecho</strong> tiene una correlación negativa moderada con el 
+                            <strong> tipo de arma</strong> (-0.26), indicando un posible cambio en los patrones 
+                            delictivos con menos armas letales o más hurtos sin armas.
+                        </li>
+                        <li>
+                            El <strong>género</strong> y el <strong>tipo de hurto</strong> no presentan relaciones 
+                            significativas con otras variables, mostrando que son independientes entre sí.
+                        </li>
+                    </ul>
+                    <p className="text-lg font-medium text-amber-300 mt-4">
+                        Conclusiones Estratégicas:
+                    </p>
+                    <ul className="list-disc ml-6 space-y-2">
+                        <li>No hay evidencia de que la edad o género influyan en el tipo de hurto o arma usada.</li>
+                        <li>Se deben analizar más variables como lugar, hora o día para identificar patrones útiles.</li>
+                        <li>Es crucial tratar el tipo de hurto y el uso de armas como fenómenos separados en la prevención.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
          {/* Boton a Github */}
         <div className="text-center pt-12 py-4">
             <Link href="https://github.com/WilHazz/Analisis-Datos-Hurtos" target="_blank">
