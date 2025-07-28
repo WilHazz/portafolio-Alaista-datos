@@ -58,7 +58,7 @@ function page(){
             </div>
         </div>
 
-         {/* Acciones y Recomendaciones */}
+         {/* Hallazgos Clave */}
          <div className="w-full mx-auto text-left px-10 py-6">
             <h2 className="text-2xl font-bold text-amber-400 mb-4">
                 Hallazgos Clave
@@ -117,6 +117,69 @@ function page(){
                 </p>
             </div>
 
+            </div>
+         </div>
+         {/* Acciones y Recomendaciones */}
+         <div className="w-full mx-auto text-left px-10 py-6">
+            <h2 className="text-2xl font-bold text-amber-400 mb-4">
+                Acciones y Recomendaciones
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+                {/* Medida 1 */}
+                <div className="shadow-lg overflow-hidden">
+                    <img 
+                        src="/images/Proyecto_Hurtos/departamentos.png" 
+                        alt="Top 10 departamentos con más hurtos"
+                        className="w-full h-auto object-containt p-4"
+                        />
+                    <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 1</h3>
+                        <p className="text-sm text-white">
+                            Los departamentos con mayores índices de hurto son <strong>Antioquia</strong>, 
+                            <strong>Cundinamarca</strong> y <strong>Valle del Cauca</strong>. Se recomienda 
+                            <strong>reforzar la presencia policial</strong>, instalar cámaras de vigilancia y 
+                            promover campañas de cultura ciudadana en estas zonas.
+                        </p>
+                    </div>    
+                </div>
+                {/* Medida 2 */}
+                <div className="shadow-lg overflow-hidden">
+                    <img 
+                        src="/images/Proyecto_Hurtos/hurtos_grupoEdad.png" 
+                        alt="Hurtos grupo edad"
+                        className="w-full h-auto object-containt p-4"
+                        />
+                    <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 2</h3>
+                        <p className="text-sm text-white">
+                            Se observa que los <strong>adultos y mayores </strong> 
+                            son más vulnerables a ciertos tipos de hurto. Se recomienda implementar 
+                            <strong>estrategias de protección diferenciadas</strong> para cada grupo etario, 
+                            como campañas de concientización, mayor presencia policial en horarios clave y 
+                            programas educativos de prevención.
+                        </p>
+                    </div>    
+                </div>
+                {/* Medida 3 */}
+                <div className="shadow-lg overflow-hidden">
+                    <img 
+                        src="/images/Proyecto_Hurtos/Hurtos_edad_vitimas.png" 
+                        alt="Hurtos edad victima"
+                        className="w-full h-auto object-containt p-4"
+                        />
+                    <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2 text-white">Medida 3</h3>
+                        <p className="text-sm text-white">
+                            Esta visualización muestra cómo varían los <strong>tipos de hurto </strong> 
+                            según el grupo de edad de las <strong>víctimas</strong>. 
+                            Se evidencia que ciertos delitos como el 
+                            <strong> hurto de celulares o motocicletas </strong> 
+                            son más comunes en jóvenes, mientras que en adultos mayores predominan delitos como el 
+                            <strong> robo de vehículos, motocicletas o atracos callejeros</strong>. Estos datos permiten diseñar 
+                            <strong> estrategias específicas de prevención y vigilancia</strong> para cada grupo etario.
+                        </p>
+                    </div>    
+                </div>
             </div>
          </div>
 
